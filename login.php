@@ -10,7 +10,7 @@
  						<input type="text" name="title" class="form-control m-2" placeholder="password">
  						<input name="edit"type="submit" value="Login" class="btn btn-success btn-block m-2">
  						<p class="m-2"><a href="#">forgot your password?</a></p>
- 						<p class="m-2"><a href="SignUp.php">Dont have an account?</a></p>
+ 						<p class="m-2">New user? <a href="SignUp.php">Sign Up</a></p>
  					</div>
  						
  					</form>

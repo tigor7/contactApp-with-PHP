@@ -1,10 +1,17 @@
 <?php 
 	
 	try {
-		$db = new PDO("mysql:host=localhost; dbname=contactapp", "root", "");
+
+		$dbhost = "localhost";
+		$dbname = "contactapp";
+		$dbuser = "root";
+		$dbpassword = "";
+		$db = new PDO("mysql:host=$dbhost; dbname=$dbname", $dbuser, $dbpassword);
 	
 
-	} catch (Exception $e){}
+	} catch (Exception $e){
+		die($e->getMessage);
+	}
 
 
 
