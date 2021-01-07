@@ -83,7 +83,7 @@
  						<input name="SignUpbtn"type="submit" value="Sign Up"class="btn btn-success btn-block m-2">
  						
  						<p class="m-2">Alredy have an account? <a href="login.php">Login</a></p>
- 					</div>
+ 				</div>
  						
  					</form>
  				</div>
