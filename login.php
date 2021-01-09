@@ -19,6 +19,7 @@
 			
 			$_SESSION["userEmail"] = $row["email"];
 			$_SESSION["userName"] = $row["name"];
+			$_SESSION["userID"] = $row["ID"];
 			header("location:index.php");
 		} else {
 			$_SESSION["errorMessage"] = "Email or password incorrent";
@@ -63,13 +64,5 @@
  		</div>
  	</div>
 
-<?php 
 
-	require 'db.php';
-
-
-
-
-
- ?>
 <?php require 'includes/footer.php'; ?>
